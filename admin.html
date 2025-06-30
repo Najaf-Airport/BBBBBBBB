@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>لوحة تحكم المشرف</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url('background.jpg'); background-size: cover; background-position: center;">
+  <div class="header">
+    <h2>📊 لوحة تحكم المشرف</h2>
+    <button id="logoutBtn">🚪 تسجيل الخروج</button>
+  </div>
+  <div class="admin-controls">
+    <label for="userFilter">فلترة حسب اسم المستخدم:</label>
+    <select id="userFilter"><option value="">الكل</option></select>
+  </div>
+  <div id="adminFlightsContainer" class="flights-container"></div>
+  <script type="module" src="js/admin.js"></script>
+</body>
+</html>
